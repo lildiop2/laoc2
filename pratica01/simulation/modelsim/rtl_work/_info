@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Usuários\Abdul Kevin Alexis\Documents\AOC2\LAB\pratica01\simulation\modelsim
+vdisp7seg
+!i10b 1
+!s100 UO^oIe?N>Tfm^PH0J_elS0
+I9K[^B0nAHGLi5b7?jQO2@3
+V6i]mE7=9Q;dKd2:n]0g2W1
+Z1 dD:\Usuários\Abdul Kevin Alexis\Documents\AOC2\LAB\pratica01\simulation\modelsim
+w1691946506
+8D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v
+FD:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1691949111.293000
+!s107 D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01|D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01} -O0
+vmemoria
+Ij8A`=a4cj2<TYkGTBiGSG0
+Vb:=H>c6gB`m5B?4]DEPLM3
+R1
+w1691949070
+8D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v
+FD:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _<UfX<1d38LZ8o<aGQ@PE0
+!s85 0
+!s108 1691949110.895000
+!s107 D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01|D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v|
+!s101 -O0
+vramlpm
+I7JMo<bA5=On_MX30J3MM@3
+VR:=61PRUnAZWihg=S@JO<2
+R1
+w1691941101
+8D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v
+FD:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 55`6U@Kh=FKVTX4n`[Oe71
+!s85 0
+!s108 1691949111.057000
+!s107 D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01|D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v|
+!s101 -O0
