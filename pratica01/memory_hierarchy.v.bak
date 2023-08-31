@@ -1,0 +1,92 @@
+
+module memory_hierarchy (
+  input clk,
+  input rst,
+  input [31:0] addr,
+  input [31:0] data_in,
+  output [31:0] data_out
+);
+
+  // Cache L1
+  reg [31:0] cache_data [1024];
+  reg [1:0] cache_tag [1024];
+  reg [1:0] cache_valid [1024];
+  reg [1:0] cache_dirty [1024];
+  reg [1:0] cache_lru [1024];
+
+  // Memory
+  reg [31:0] memory_data [1024];
+
+  // Initialize cache
+  always @(posedge clk) begin
+    if (rst) begin
+      for (int i = 0; i < 1024; i++) begin
+        cache_data[i] = 0;
+        cache_tag[i] = 0;
+        cache_valid[i] = 0;
+        cache_dirty[i] = 0;
+        cache_lru[i] = 0;
+      end
+    end else begin
+      $readmemh("memory.mif", memory_data);
+    end
+  end
+
+  // Read from cache
+  always @(posedge clk) begin
+    if (rst) begin
+      data_out = 0;
+    end else begin
+      if (cache_valid[addr]) begin
+        data_out = cache_data[addr];
+      end else begin
+        data_out = memory_data[addr];
+      end
+    end
+  end
+
+  // Write to cache
+  always @(posedge clk) begin
+    if (rst) begin
+    end else begin
+      if (cache_valid[addr]) begin
+        if (cache_dirty[addr]) begin
+          memory_data[addr] = cache_data[addr];
+        end
+        cache_data[addr] = data_in;
+        cache_dirty[addr] = 1;
+      end else begin
+        cache_data[addr] = data_in;
+        cache_tag[addr] = addr[11:0];
+        cache_valid[addr] = 1;
+        cache_dirty[addr] = 1;
+      end
+    end
+  end
+
+  // LRU replacement policy
+  always @(posedge clk) begin
+    if (rst) begin
+    end else begin
+      for (int i = 0; i < 1024; i++) begin
+        if (cache_lru[i] == 1) begin
+          cache_lru[i] = 0;
+        end else begin
+          cache_lru[i] = cache_lru[i] + 1;
+        end
+      end
+    end
+  end
+
+  // Write-back policy
+  always @(posedge clk) begin
+    if (rst) begin
+    end else begin
+      if (cache_dirty[addr]) begin
+        memory_data[addr] = cache_data[addr];
+        cache_dirty[addr] = 0;
+      end
+    end
+  end
+
+endmodule

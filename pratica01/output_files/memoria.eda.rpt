@@ -1,5 +1,5 @@
 EDA Netlist Writer report for memoria
-Wed Aug 16 17:00:42 2023
+Sun Aug 27 23:35:44 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Aug 16 17:00:42 2023 ;
+; EDA Netlist Writer Status ; Successful - Sun Aug 27 23:35:44 2023 ;
 ; Revision Name             ; memoria                               ;
 ; Top-level Entity Name     ; memoria                               ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                         ;
-+----------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                    ;
-+----------------------------------------------------------------------------------------------------+
-; D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/simulation/modelsim/memoria.vo         ;
-; D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/simulation/modelsim/memoria_fast.vo    ;
-; D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/simulation/modelsim/memoria_v.sdo      ;
-; D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/simulation/modelsim/memoria_v_fast.sdo ;
-+----------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                             ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                        ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/simulation/modelsim/memoria.vo         ;
+; C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/simulation/modelsim/memoria_fast.vo    ;
+; C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/simulation/modelsim/memoria_v.sdo      ;
+; C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/simulation/modelsim/memoria_v_fast.sdo ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Aug 16 17:00:42 2023
+    Info: Processing started: Sun Aug 27 23:35:43 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off memoria -c memoria
-Info (204026): Generated files "memoria.vo", "memoria_fast.vo", "memoria_v.sdo" and "memoria_v_fast.sdo" in directory "D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "memoria.vo", "memoria_fast.vo", "memoria_v.sdo" and "memoria_v_fast.sdo" in directory "C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4524 megabytes
-    Info: Processing ended: Wed Aug 16 17:00:42 2023
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4527 megabytes
+    Info: Processing ended: Sun Aug 27 23:35:44 2023
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

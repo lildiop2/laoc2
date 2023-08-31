@@ -10,80 +10,46 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Área\ de\ Trabalho/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantosLab/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantos {C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/Cache.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module memoria
+# -- Compiling module Cache
 # 
 # Top level modules:
-# 	memoria
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module ramlpm
-# 
-# Top level modules:
-# 	ramlpm
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module disp7seg
-# 
-# Top level modules:
-# 	disp7seg
-# 
-vsim +altera -L altera_mf_ver -do memoria_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoria
-# vsim +altera -L altera_mf_ver -do memoria_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoria 
-# Loading work.memoria
-# Loading work.ramlpm
-# Loading altera_mf_ver.altsyncram
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading work.disp7seg
-# ** Warning: (vsim-3015) D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v(29): [PCDPC] - Port size (8 or 8) does not match connection size (5) for port 'entry'. The port definition is at: D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v(1).
-# 
-#         Region: /memoria/dispSeg4
-# do memoria_run_msim_rtl_verilog.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/memoria.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module memoria
-# 
-# Top level modules:
-# 	memoria
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/ramlpm.v}
+# 	Cache
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Área\ de\ Trabalho/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantosLab/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantos {C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/ramlpm.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module ramlpm
 # 
 # Top level modules:
 # 	ramlpm
-# vlog -vlog01compat -work work +incdir+D:/Usuários/Abdul\ Kevin\ Alexis/Documents/AOC2/LAB/pratica01 {D:/Usuários/Abdul Kevin Alexis/Documents/AOC2/LAB/pratica01/disp7seg.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Área\ de\ Trabalho/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantosLab/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantos {C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/disp7seg.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module disp7seg
 # 
 # Top level modules:
 # 	disp7seg
+# vlog -vlog01compat -work work +incdir+C:/Users/pedro/OneDrive/Área\ de\ Trabalho/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantosLab/Prática\ 1\ -\ Parte\ 3\ -\ PedroSantos {C:/Users/pedro/OneDrive/Área de Trabalho/Prática 1 - Parte 3 - PedroSantosLab/Prática 1 - Parte 3 - PedroSantos/memoria.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoria
 # 
-add wave -position end  sim:/memoria/HEX0
-add wave -position end  sim:/memoria/HEX1
-add wave -position end  sim:/memoria/HEX2
-add wave -position end  sim:/memoria/HEX3
-add wave -position end  sim:/memoria/HEX4
-add wave -position end  sim:/memoria/HEX5
-add wave -position end  sim:/memoria/HEX6
-add wave -position end  sim:/memoria/HEX7
-add wave -position end  sim:/memoria/LEDG
-add wave -position end  sim:/memoria/LEDR
-add wave -position end  sim:/memoria/SW
-add wave -position end  sim:/memoria/address
-add wave -position end  sim:/memoria/clock
-add wave -position end  sim:/memoria/data
-add wave -position end  sim:/memoria/out
-add wave -position end  sim:/memoria/wren
-force -freeze sim:/memoria/clock 0 0, 1 {50 ps} -r 100
-wave create -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/memoria/wren
-wave create -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 4 0 -starttime 0ps -endtime 1000ps sim:/memoria/address
-run -all
+# Top level modules:
+# 	memoria
+# 
+vsim work.Cache
+# vsim work.Cache 
+# Loading work.Cache
+wave create -driver freeze -pattern clock -initialvalue 0 -period 20ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/Cache/clock
+wave create -driver freeze -pattern constant -value 0 -range 4 0 -starttime 0ps -endtime 1000ps sim:/Cache/address
+add wave -position insertpoint  \
+sim:/Cache/hit
+add wave -position insertpoint  \
+sim:/Cache/q
+add wave -position insertpoint  \
+sim:/Cache/RAM
+add wave -position insertpoint  \
+sim:/Cache/qRAM
+add wave -position insertpoint  \
+sim:/Cache/cache
+wave edit change_value -start 0ps -end 200ps -value 11111 Edit:/Cache/address
+run
+run

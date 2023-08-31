@@ -1,0 +1,276 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\gabri\Documents\LAOC2\pratica2\simulation\modelsim
+vALU
+I226aVoNofM9gm8>=nZ3<K0
+V]:2oPG?_kcg7W014cIIB`0
+Z1 dC:\Users\gabri\Documents\LAOC2\pratica2\simulation\modelsim
+Z2 w1614372170
+Z3 8C:/Users/gabri/Documents/LAOC2/pratica2/pratica2.v
+Z4 FC:/Users/gabri/Documents/LAOC2/pratica2/pratica2.v
+L0 253
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1614372302.206000
+Z7 !s107 C:/Users/gabri/Documents/LAOC2/pratica2/pratica2.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/LAOC2/pratica2|C:/Users/gabri/Documents/LAOC2/pratica2/pratica2.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/gabri/Documents/LAOC2/pratica2 -O0
+n@a@l@u
+!i10b 1
+!s100 XEEDDVJLQ:N]X=PzVFRQX0
+!s85 0
+!s101 -O0
+vControlUnit
+I6:0b[KXFRF]n>2GJ<B^lH1
+VdTPSAlJ8oQf:XhNAm15O91
+R1
+R2
+R3
+R4
+L0 139
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@control@unit
+!i10b 1
+!s100 9XgDhoGaAkZdh7_m@LkO`1
+!s85 0
+!s101 -O0
+vCounter
+IS79fC9lMZ]AhoBJe4n8gX2
+VF_Z6n9do1?fii0W`nXZN[3
+R1
+R2
+R3
+R4
+L0 271
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@counter
+!i10b 1
+!s100 ?Jh[J=[]QJ>HE9acX`?Wg1
+!s85 0
+!s101 -O0
+vCounterPC
+ImdQM87<jj6m6lnaX^2nzd1
+V21=O1:1K@IVH>gWEH[d@Z2
+R1
+R2
+R3
+R4
+L0 28
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@counter@p@c
+!i10b 1
+!s100 :<gE;3?7zm@TRk]6>[F;N1
+!s85 0
+!s101 -O0
+vpratica2
+IcI;6:G@A4>afS8IonidQ?0
+VOPfIcT:4jS4zRe<AV7[^>1
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 JDCnd2_a9jPNKTI4V3QBU3
+!s85 0
+!s101 -O0
+vproc
+IzbfzLLfe7gfg4m`gnPbEF0
+VjA>gZJLUoP6XC2ISHU`?L3
+R1
+R2
+R3
+R4
+L0 46
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 VLeV>IAWZ1]oQYeA@IgA23
+!s85 0
+!s101 -O0
+vReg0
+Ijb]`ShP8kbi5nYa`l3KCH1
+Vg^?d;<en8GMznZfQXG7hV2
+R1
+R2
+R3
+R4
+L0 301
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg0
+!i10b 1
+!s100 ^WL:Z02QAOAP^I2d<Z[0S3
+!s85 0
+!s101 -O0
+vReg1
+I]PNmU^f^9LR5M@^Z<Oz@[2
+Vh3XFaoJY@BQ?FVTQX<`M02
+R1
+R2
+R3
+R4
+L0 318
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg1
+!i10b 1
+!s100 a2PSh1F9HN1OeWP8QHnXC0
+!s85 0
+!s101 -O0
+vReg2
+IJ_ih8jXlZ::b90C6A]NTf3
+Vi41EKMHS3g<A;kQd3Zf8`3
+R1
+R2
+R3
+R4
+L0 335
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg2
+!i10b 1
+!s100 FQ?a@d2cJzn9njN2=dQV]2
+!s85 0
+!s101 -O0
+vRegIR
+IQb@><4Ll>P1dliRgS`8UL1
+VzOloh10V2Pk0j;lz<gi:92
+R1
+R2
+R3
+R4
+L0 352
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg@i@r
+!i10b 1
+!s100 DWUV`IE9MC@E=[O@lzUz;1
+!s85 0
+!s101 -O0
+vRegN
+IZz>;7cWVNn^G`7K8kaQgl1
+VRbcI2A`fVn5nRQZR92Z6;0
+R1
+R2
+R3
+R4
+L0 284
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg@n
+!i10b 1
+!s100 K?PQNW7TVVfD4IEaL?ok81
+!s85 0
+!s101 -O0
+vRegUpcode
+IcGbImR83WM;?zFQPaG:233
+VF<M39ajRN]mjzF>24E9GT3
+R1
+R2
+R3
+R4
+L0 119
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@reg@upcode
+!i10b 1
+!s100 _;k3hTgJjO5_=ja?EB@`00
+!s85 0
+!s101 -O0
+vromLPM2
+!i10b 1
+!s100 OcInM8Ud>X^S7`Q2OoiNF1
+I?]_mei>@YOdNYiS^ODbLX0
+V:WMJQCbB`;Bj5>nNjQU3L3
+R1
+w1614293839
+8C:/Users/gabri/Documents/LAOC2/pratica2/romLPM2.v
+FC:/Users/gabri/Documents/LAOC2/pratica2/romLPM2.v
+L0 39
+R5
+r1
+!s85 0
+31
+!s108 1614372307.101000
+!s107 C:/Users/gabri/Documents/LAOC2/pratica2/romLPM2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/Documents/LAOC2/pratica2|C:/Users/gabri/Documents/LAOC2/pratica2/romLPM2.v|
+!s101 -O0
+R9
+R10
+nrom@l@p@m2
