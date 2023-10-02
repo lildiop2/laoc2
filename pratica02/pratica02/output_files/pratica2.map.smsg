@@ -1,0 +1,11 @@
+Info (10281): Verilog HDL Declaration information at pratica2.v(33): object "pc" differs only in case from object "PC" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(36): object "counter" differs only in case from object "Counter" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(34): object "addr" differs only in case from object "Addr" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(26): object "r0" differs only in case from object "R0" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(27): object "r1" differs only in case from object "R1" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(28): object "r2" differs only in case from object "R2" in the same scope
+Info (10281): Verilog HDL Declaration information at pratica2.v(29): object "r3" differs only in case from object "R3" in the same scope
+Warning (10268): Verilog HDL information at pratica2.v(167): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at pratica2.v(603): extended using "x" or "z"
+Warning (10268): Verilog HDL information at pratica2.v(599): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at pratica2.v(630): always construct contains both blocking and non-blocking assignments

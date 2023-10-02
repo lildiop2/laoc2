@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : -11.757
+TNS   : -180.112
+
+Type  : Slow Model Setup 'KEY[0]'
+Slack : -7.192
+TNS   : -850.202
+
+Type  : Slow Model Setup 'proc:processador|Counter:C|Counter[0]'
+Slack : -6.743
+TNS   : -115.411
+
+Type  : Slow Model Hold 'KEY[0]'
+Slack : -9.427
+TNS   : -499.988
+
+Type  : Slow Model Hold 'proc:processador|Counter:C|Counter[0]'
+Slack : -5.864
+TNS   : -81.478
+
+Type  : Slow Model Hold 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : -2.059
+TNS   : -12.960
+
+Type  : Slow Model Minimum Pulse Width 'proc:processador|Counter:C|Counter[0]'
+Slack : -2.488
+TNS   : -386.524
+
+Type  : Slow Model Minimum Pulse Width 'KEY[0]'
+Slack : -2.000
+TNS   : -423.222
+
+Type  : Slow Model Minimum Pulse Width 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : -4.883
+TNS   : -74.141
+
+Type  : Fast Model Setup 'KEY[0]'
+Slack : -2.888
+TNS   : -297.260
+
+Type  : Fast Model Setup 'proc:processador|Counter:C|Counter[0]'
+Slack : -2.717
+TNS   : -41.940
+
+Type  : Fast Model Hold 'KEY[0]'
+Slack : -4.740
+TNS   : -283.815
+
+Type  : Fast Model Hold 'proc:processador|Counter:C|Counter[0]'
+Slack : -2.887
+TNS   : -40.846
+
+Type  : Fast Model Hold 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : -1.257
+TNS   : -11.199
+
+Type  : Fast Model Minimum Pulse Width 'KEY[0]'
+Slack : -2.000
+TNS   : -423.222
+
+Type  : Fast Model Minimum Pulse Width 'proc:processador|Counter:C|Counter[0]'
+Slack : -0.796
+TNS   : -106.284
+
+Type  : Fast Model Minimum Pulse Width 'proc:processador|ControlUnit:CU|ALUOp[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
